@@ -11,7 +11,6 @@ __device__ const int MAX_PATTERNS = 10;
 
 // exact matches at the beginning of the address, letter ? is wildcard
 __device__ static char const *prefixes[] = {
-  "b",
   "mintech",
   "mintecH",
   "minteCh",
