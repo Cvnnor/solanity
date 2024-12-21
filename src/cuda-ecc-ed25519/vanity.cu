@@ -219,11 +219,11 @@ void vanity_run(config &vanity)
 		// 	   executions_total,
 		// 	   keys_found_total);
 
-		if (keys_found_total >= STOP_AFTER_KEYS_FOUND)
-		{
-			printf("Enough keys found, Done! \n");
-			exit(0);
-		}
+		// if (keys_found_total >= STOP_AFTER_KEYS_FOUND)
+		// {
+		// 	printf("Enough keys found, Done! \n");
+		// 	exit(0);
+		// }
 	}
 
 	printf("Iterations complete, Done!\n");
