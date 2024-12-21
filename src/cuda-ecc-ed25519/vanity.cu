@@ -224,6 +224,8 @@ void vanity_run(config &vanity)
 		// 	printf("Enough keys found, Done! \n");
 		// 	exit(0);
 		// }
+
+		print("keys found: %d\n", keys_found_total);
 	}
 
 	printf("Iterations complete, Done!\n");
